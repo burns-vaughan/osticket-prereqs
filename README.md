@@ -26,8 +26,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://ibb.co/JHmcC9D"/>
 </p>
+Screenshot of where to create a virtual machine in Azure.
 <p>
 The first step is create a virtual machine. In this example I will be using Azure. It's very straightforward to set one up, just ensure to note down the username and password. A resource group and virtual network get created automatically.
   
