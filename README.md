@@ -15,15 +15,37 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Windows 10</b> (21H2)
 
-<h2>List of Prerequisites</h2>
+<h2>High-Level Deployment and Configuration Steps</h2>
 
-- Create an Azure virtual machine
-- Install and enable IIS
-- Ensure PHP version is 7.3.8 | install and enable if required
-- Install MySQL 5.5.62
-- Install osTicket
+1. Create a virtual machine in Azure
+2. Install and enable IIS
+3. Download and install PHP Manager for IIS 
+4. Download and install the Rewrite Module 
+5. Create the directory C:\PHP
+6. Download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
+7. Download and install VC_redist.x86.exe
+8. Download and install MySQL 5.5.62
+9. Open IIS as an Admin
+10. Register PHP from within IIS and reload IIS (Open IIS, Stop and Start the server)
+12. Install osTicket v1.15.8 and reload IIS
+13. Go to sites -> Default -> osTicket and configure
+14. Configure roles and SLAs
 
-<h2>Installation Steps</h2>
+<h2>Deployment and Configuration Steps</h2>
+
+<h3>1. Create a virtual machine in Azure</h3>
+<h3>2. Install and enable IIS</h3>
+<h3>3. Download and install PHP Manager for IIS </h3>
+<h3>4. Download and install the Rewrite Module </h3>
+<h3>5. Create the directory C:\PHP</h3>
+<h3>6. Download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP</h3>
+<h3>7. Download and install VC_redist.x86.exe</h3>
+<h3>8. Download and install MySQL 5.5.62</h3>
+<h3>9. Open IIS as an Admin</h3>
+<h3>10. Register PHP from within IIS and reload IIS</h3>
+<h3>12. Install osTicket v1.15.8 and reload IIS</h3>
+<h3>13. Go to sites -> Default -> osTicket and configure</h3>
+<h3>14. Configure roles and SLAs</h3>
 
 <p align="center">
 <img src="https://i.ibb.co/jZL6b6M/os-Ticket-prereqs1.jpg" alt="os-Ticket-prereqs1" border="0" />
