@@ -29,7 +29,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 10. Register PHP from within IIS and reload IIS (Open IIS, Stop and Start the server)
 12. Install osTicket v1.15.8 and reload IIS
 13. Go to sites -> Default -> osTicket and configure
-14. Configure roles and SLAs
+14. Move on to post installation steps
 
 <h2>Deployment and Configuration Steps</h2>
 
