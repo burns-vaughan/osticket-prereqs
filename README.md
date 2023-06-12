@@ -26,7 +26,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p align="center">
-<img src="https://i.ibb.co/m4bRS3f/os-Ticket-prereqs1.jpg" alt="os-Ticket-prereqs1" border="0" />
+<img src="https://i.ibb.co/jZL6b6M/os-Ticket-prereqs1.jpg" alt="os-Ticket-prereqs1" border="0" />
 </p>
 screenshot of where to create a virtual machine in Azure.
 <p>
