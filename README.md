@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.ibb.co/m4bRS3f/os-Ticket-prereqs1.jpg" alt="os-Ticket-prereqs1" border="0" />
+<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
 <h1>osTicket - Prerequisites and Installation</h1>
@@ -25,10 +25,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
-<p>
-<img src="https://ibb.co/JHmcC9D"/>
+<p align="center">
+<img src="https://i.ibb.co/m4bRS3f/os-Ticket-prereqs1.jpg" alt="os-Ticket-prereqs1" border="0" />
 </p>
-Screenshot of where to create a virtual machine in Azure.
+screenshot of where to create a virtual machine in Azure.
 <p>
 The first step is create a virtual machine. In this example I will be using Azure. It's very straightforward to set one up, just ensure to note down the username and password. A resource group and virtual network get created automatically.
   
