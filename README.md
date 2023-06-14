@@ -52,8 +52,6 @@ Here's a screenshot showing what to select for the OS, and the CPU.
 Make note of the username and password on a Notepad or similar. Because this is for testing a simple username and password is sufficient.
 It will take a minutes or so to create the new VM.
 
-
-
 <h3>2. Install and enable IIS</h3>
 After creating the virtual machine log in to it using Windows Remote Desktop. 
 If it's your first time doing it, open up Windows Remote Desktop from the Windows start menu.
@@ -66,9 +64,14 @@ Shown in the screenshot below:
 <img src="https://i.ibb.co/zrnXxg4/osticket-prereqs4.jpg" alt="osticket-prereqs4" border="0">
 
 4. Paste that into Windows Remote Desktop, shown in the screenshots below.<br>
-5. Input your username and password to connect to the VM
 
+<img src="https://i.ibb.co/y0KgK93/osticket-prereqs5.jpg" alt="osticket-prereqs5" border="0">
 
+You then need to select 'other user', shown below.
+
+<img src="https://i.ibb.co/9NkCNKT/osticket-prereqs6.jpg" alt="osticket-prereqs6" border="0">
+
+6. Input your username and password to connect to the VM
 
 <h3>3. Download and install PHP Manager for IIS </h3>
 
