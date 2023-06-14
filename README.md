@@ -77,7 +77,7 @@ You then need to select more choices > use another account, shown below.
 
 There are a bunch of prerequesite files that need to be downloaded to install osTicket. In my experience it's far easier to download everything at once. Google Drive scans the files for viruses which takes a long time one by one. Also, when using a VM for any length of time I install Google Chrome, as I'm more used to using it. Rather than, Microsoft Edge.
 
-To download all of the required files access the Google Drive<a href="https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">link</a> and download the entire contents
+To download all of the required files access the Google Drive <a href="https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">link</a> and download the entire contents
 
 <h3>4. Download and install the Rewrite Module </h3>
 <h3>5. Create the directory C:\PHP</h3>
