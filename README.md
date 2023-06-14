@@ -150,9 +150,9 @@ Go into IIS, and restart the server, then open osTicket by selecting 'sites' on 
 Click on the PHP Manager option on the IIS home screen, and scroll down to the bottom.
 Click on 'enable or disable' and extension.
 Then enable the following extensions: <br>
-php_imap.dll
-php_intl.dll
-php_opcache.dll
+php_imap.dll<br>
+php_intl.dll<br>
+php_opcache.dll<br>
 
 After that refresh the server
 
