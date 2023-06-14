@@ -143,7 +143,7 @@ Nothing will happen to let you know it's finished. Click back, or on the virtual
 Go to the folder where you have all the files downloaded and extract osTicket v1.15.8.
 When it has finished extracting copy the folder it unzipped called “upload” to this folder C:\inetpub\wwwroot
 After that, rename the folder called 'upload' to 'osTicket'.
-Go into IIS, and restart the server, then open osTicket by selecting the 'Browse *:80 on the right hand side, shown in the screenshot below: <br><br>
+Go into IIS, and restart the server, then open osTicket by selecting 'sites' on the lefthand side, and then osTicket from the dropdown menu. After that, 'Browse *:80 on the right hand side, shown in the screenshot below: <br><br>
 <img src="https://i.ibb.co/6ZdwWJL/4.jpg" alt="4" border="0">
 <br>
 <h3>13. Go to sites -> Default -> osTicket and configure</h3>
