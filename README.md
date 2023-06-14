@@ -30,7 +30,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 9. Open IIS as an Admin
 10. Register PHP from within IIS and reload IIS (Open IIS, Stop and Start the server)
 12. Install osTicket v1.15.8 and reload IIS
-13. Go to sites -> Default -> osTicket and configure
+13. Enable PHP extensions in IIS 
 14. Move on to post installation steps
 
 <h2>Deployment and Configuration Steps</h2>
@@ -145,7 +145,7 @@ When it has finished extracting copy the folder it unzipped called “upload” 
 After that, rename the folder called 'upload' to 'osTicket'.
 Go into IIS, and restart the server, then open osTicket by selecting 'sites' on the lefthand side, and then osTicket from the dropdown menu. After that, 'Browse *:80 on the right hand side, shown in the screenshot below: <br><br>
 <img src="https://i.ibb.co/6ZdwWJL/4.jpg" alt="4" border="0">
-<br>
-<h3>13. Go to sites -> Default -> osTicket and configure</h3>
+
+<h3>13. Enable PHP extensions in IIS </h3>
 <h3>14. Configure roles and SLAs</h3>
 
