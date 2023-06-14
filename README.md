@@ -147,5 +147,14 @@ Go into IIS, and restart the server, then open osTicket by selecting 'sites' on 
 <img src="https://i.ibb.co/6ZdwWJL/4.jpg" alt="4" border="0">
 
 <h3>13. Enable PHP extensions in IIS </h3>
+Click on the PHP Manager option on the IIS home screen, and scroll down to the bottom.
+Click on 'enable or disable' and extension.
+Then enable the following extensions: <br>
+php_imap.dll
+php_intl.dll
+php_opcache.dll
+
+After that refresh the server
+
 <h3>14. Configure roles and SLAs</h3>
 
