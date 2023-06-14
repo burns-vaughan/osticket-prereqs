@@ -21,12 +21,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 1. Create a virtual machine in Azure
 2. Install and enable IIS
-3. Download and install PHP Manager for IIS 
-4. Download and install the Rewrite Module 
+3. Install PHP Manager for IIS 
+4. Install the Rewrite Module 
 5. Create the directory C:\PHP
-6. Download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP
-7. Download and install VC_redist.x86.exe
-8. Download and install MySQL 5.5.62
+6. Install PHP 7.3.8
+7. Install VC_redist.x86.exe
+8. Install MySQL 5.5.62
 9. Open IIS as an Admin
 10. Register PHP from within IIS and reload IIS (Open IIS, Stop and Start the server)
 12. Install osTicket v1.15.8 and reload IIS
@@ -96,10 +96,18 @@ It will open the installer for it, shown in the screenshot below. Select next, a
 <img src="https://i.ibb.co/tpDLB4Y/2.jpg" alt="2" border="0">
 
 <h3>4. Download and install the Rewrite Module </h3>
+Go to your folder with all of the files you downloaded.
+Double click on rewrite_amd64_en-US and hit accept, and next to install it. Use all the default options.
+
 <h3>5. Create the directory C:\PHP</h3>
-<h3>6. Download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP</h3>
-<h3>7. Download and install VC_redist.x86.exe</h3>
-<h3>8. Download and install MySQL 5.5.62</h3>
+Open up File Explorer - My Computer and navigate to the C: Drive.
+Create a new folder - it will be empty for now and call it PHP.
+The path should be C:\PHP 
+
+<h3>6. Install PHP 7.3.8</h3>
+ (php-7.3.8-nts-Win32-VC15-x86.zip) copy and past the entire contents into C:\PHP
+<h3>7. Install VC_redist.x86.exe</h3>
+<h3>8. Install MySQL 5.5.62</h3>
 <h3>9. Open IIS as an Admin</h3>
 <h3>10. Register PHP from within IIS and reload IIS</h3>
 <h3>12. Install osTicket v1.15.8 and reload IIS</h3>
