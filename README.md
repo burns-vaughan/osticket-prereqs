@@ -58,10 +58,15 @@ It will take a minutes or so to create the new VM.
 After creating the virtual machine log in to it using Windows Remote Desktop. 
 If it's your first time doing it, open up Windows Remote Desktop from the Windows start menu.
 <br><br>
-1. Click on your virtual machine in Azure to show the settings.<br>
+1. Then click on your virtual machine in Azure to show the settings.<br>
 2. Copy the public IP address.<br>
-3. Paste that into Windows Remote Desktop, shown in the screenshots below.<br>
-4. Input your username and password to connect to the VM
+
+Shown in the screenshot below:
+
+<img src="https://i.ibb.co/zrnXxg4/osticket-prereqs4.jpg" alt="osticket-prereqs4" border="0">
+
+4. Paste that into Windows Remote Desktop, shown in the screenshots below.<br>
+5. Input your username and password to connect to the VM
 
 
 
