@@ -105,9 +105,19 @@ Create a new folder - it will be empty for now and call it PHP.
 The path should be C:\PHP 
 
 <h3>6. Install PHP 7.3.8</h3>
- (php-7.3.8-nts-Win32-VC15-x86.zip) copy and past the entire contents into C:\PHP
+First unzip the file:
+php-7.3.8-nts-Win32-VC15-x86.zip from the downloads folder
+Open up the unzipped folder. Select all of the contents and copy it into the C:\PHP folder
+
 <h3>7. Install VC_redist.x86.exe</h3>
+Go to your folder with all the download files.
+Double click on:
+VC_redist.x86
+
+Select all the default options, and hit next, and accept to install it.
+
 <h3>8. Install MySQL 5.5.62</h3>
+
 <h3>9. Open IIS as an Admin</h3>
 <h3>10. Register PHP from within IIS and reload IIS</h3>
 <h3>12. Install osTicket v1.15.8 and reload IIS</h3>
