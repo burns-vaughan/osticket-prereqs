@@ -50,9 +50,11 @@ Make note of the username and password on a Notepad or similar. Because this is 
 <h3>2. Install and enable IIS</h3>
 After creating the virtual machine log in to it using Windows Remote Desktop. 
 If it's your first time doing it, open up Windows Remote Desktop from the Windows start menu.
-Click on your virtual machine in Azure to show the settings.
-Copy the public IP address.
-Past that into Windows Remote Desktop, shown in the screenshots below.
+<br>
+1. Click on your virtual machine in Azure to show the settings.
+2. Copy the public IP address.
+3. Paste that into Windows Remote Desktop, shown in the screenshots below.
+4. Input your username and password to connect to the VM
 
 
 
