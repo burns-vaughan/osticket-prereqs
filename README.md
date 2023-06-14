@@ -41,11 +41,18 @@ The first step is to create a virtual machine in Azure. To do that log in to you
 
 <img src="https://i.ibb.co/jZL6b6M/os-Ticket-prereqs1.jpg" alt="os-Ticket-prereqs1" border="0" />
 
-Name it something convenient like VM-osticket
+Name it something convenient like VM-1. And create a new resource group. Name it something like osTicket.
 
 For the operating system select Windows 10.
 For the resources, select 2 CPUs. 1 CPU will be too slow.
+Here's a screenshot showing what to select for the OS, and the CPU.
+
+<img src="https://i.ibb.co/9yQPFRM/osticket-prereqs3.jpg" alt="osticket-prereqs3" border="0">
+
 Make note of the username and password on a Notepad or similar. Because this is for testing a simple username and password is sufficient.
+It will take a minutes or so to create the new VM.
+
+
 
 <h3>2. Install and enable IIS</h3>
 After creating the virtual machine log in to it using Windows Remote Desktop. 
@@ -55,6 +62,8 @@ If it's your first time doing it, open up Windows Remote Desktop from the Window
 2. Copy the public IP address.<br>
 3. Paste that into Windows Remote Desktop, shown in the screenshots below.<br>
 4. Input your username and password to connect to the VM
+
+
 
 <h3>3. Download and install PHP Manager for IIS </h3>
 
