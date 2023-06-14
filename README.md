@@ -45,8 +45,15 @@ Name it something convenient like VM-osticket
 
 For the operating system select Windows 10.
 For the resources, select 2 CPUs. 1 CPU will be too slow.
+Make note of the username and password on a Notepad or similar. Because this is for testing a simple username and password is sufficient.
 
 <h3>2. Install and enable IIS</h3>
+After creating the virtual machine log in to it using Windows Remote Desktop. 
+If it's your first time doing it, open up Windows Remote Desktop from the Windows start menu.
+Click on your virtual machine in Azure to show the settings.
+Copy the public IP address.
+Past that into Windows Remote Desktop, shown in the screenshots below.
+
 
 
 <h3>3. Download and install PHP Manager for IIS </h3>
