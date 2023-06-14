@@ -131,12 +131,21 @@ Make note of the password somewhere.
 
 <h3>9. Open IIS as an Admin</h3>
 Go to the start menu and type in IIS. Then select Internet Informations Services Manager.
-A new windows will open from the tiles select PHP Manager as shown in the screenshot below: <br>
-
-<img src="https://i.ibb.co/sv2wQLq/3.jpg" alt="3" border="0">
 
 <h3>10. Register PHP from within IIS and reload IIS</h3>
+A new windows will open from the tiles select PHP Manager as shown in the screenshot below: <br><br>
+<img src="https://i.ibb.co/sv2wQLq/3.jpg" alt="3" border="0"><br><br>
+Click on 'Register new PHP version'. It will ask you where the PHP file is located. It's in the C:\PHP folder which we created earlier. Select that, and the file name it's asking for which will be shown there.
+
+Nothing will happen to let you know it's finished. Click back, or on the virtual machine on the right hand side to go back to the main screen with the list of options. From the right hand side click on 'restart' to restart the server.
+
 <h3>12. Install osTicket v1.15.8 and reload IIS</h3>
+Go to the folder where you have all the files downloaded and extract osTicket v1.15.8.
+When it has finished extracting copy the folder it unzipped called “upload” to this folder C:\inetpub\wwwroot
+After that, rename the folder called 'upload' to 'osTicket'.
+Go into IIS, and restart the server, then open osTicket by selecting the options shown in the screenshot below: <br><br>
+<img src="https://i.ibb.co/6ZdwWJL/4.jpg" alt="4" border="0">
+<br>
 <h3>13. Go to sites -> Default -> osTicket and configure</h3>
 <h3>14. Configure roles and SLAs</h3>
 
