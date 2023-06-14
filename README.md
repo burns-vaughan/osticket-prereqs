@@ -67,13 +67,17 @@ Shown in the screenshot below:
 
 <img src="https://i.ibb.co/y0KgK93/osticket-prereqs5.jpg" alt="osticket-prereqs5" border="0">
 
-You then need to select 'other user', shown below.
+You then need to select more choices > use another account, shown below.
 
 <img src="https://i.ibb.co/9NkCNKT/osticket-prereqs6.jpg" alt="osticket-prereqs6" border="0">
 
 6. Input your username and password to connect to the VM
 
 <h3>3. Download and install PHP Manager for IIS </h3>
+
+There are a bunch of prerequesite files that need to be downloaded to install osTicket. In my experience it's far easier to download everything at once. Google Drive scans the files for viruses which takes a long time one by one. Also, when using a VM for any length of time I install Google Chrome, as I'm more used to using it. Rather than, Microsoft Edge.
+
+To download all of the required files access the Google Drive<a href="https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">link</a> and download the entire contents
 
 <h3>4. Download and install the Rewrite Module </h3>
 <h3>5. Create the directory C:\PHP</h3>
