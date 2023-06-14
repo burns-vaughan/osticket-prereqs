@@ -118,6 +118,16 @@ Select all the default options, and hit next, and accept to install it.
 
 <h3>8. Install MySQL 5.5.62</h3>
 
+Go to the folder with all the downloads and double click on:
+mysql-5.5.62-win32
+
+Accept all of the default settings and click, ok, next. Once it finished installing it will prompt you run a wizard to set up the MySQL server. You want to change the default option when this open after installing MySQL. Change it to standard configuration as shown in the screen shot below:
+<img src="https://i.ibb.co/vLtG1nq/3.jpg" alt="3" border="0">
+
+Then set a password for your SQL server. This is used because osTicket creates a database to store all of the tickets.
+
+Make note of the password somewhere.
+
 <h3>9. Open IIS as an Admin</h3>
 <h3>10. Register PHP from within IIS and reload IIS</h3>
 <h3>12. Install osTicket v1.15.8 and reload IIS</h3>
