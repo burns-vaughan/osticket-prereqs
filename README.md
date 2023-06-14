@@ -79,6 +79,22 @@ There are a bunch of prerequesite files that need to be downloaded to install os
 
 To download all of the required files access the Google Drive <a href="https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">link</a> and download the entire contents
 
+Once it has finished downloading unzip it by right clicking on it, and selecting extract all.
+
+Next open go to the start menu and type 'turn windows features off'. Select the option at the top that says 'turn Windows features on and off.
+
+A new windows will open with a bunch of settings. Below, is a screen shot showing which ones need to be enabled.
+
+<img src="https://i.ibb.co/5jxBR7Z/1.jpg" alt="1" border="0">
+
+You enable them by clicking on the check box. For the last option you select all of the options. The main thing is to ensure yours looks exactly the same as the screenshot above. Select OK, and will take 20 seconds or so to make some changes.
+
+After that go to the folder where you unzipped all of the download files and double click on: 
+
+It will open the installer for it, shown in the screenshot below. Select next, and ok using all the default options and it will install it.
+
+<img src="https://i.ibb.co/tpDLB4Y/2.jpg" alt="2" border="0">
+
 <h3>4. Download and install the Rewrite Module </h3>
 <h3>5. Create the directory C:\PHP</h3>
 <h3>6. Download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP</h3>
