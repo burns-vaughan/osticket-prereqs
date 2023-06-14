@@ -5,7 +5,7 @@
 <h1>osTicket - Prerequisites and Installation</h1>
 <p align="center">[in progress]</p>
 
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket. It requires a Microsoft Azure account. I can be the free trial susbcription or a paid subscription.<br />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -36,7 +36,19 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Deployment and Configuration Steps</h2>
 
 <h3>1. Create a virtual machine in Azure</h3>
+
+The first step is to create a virtual machine in Azure. To do that log in to your Azure account and select create a virtual machine. There are multiple ways to get there. Below, is a screenshot showing how to do it:
+
+<img src="https://i.ibb.co/jZL6b6M/os-Ticket-prereqs1.jpg" alt="os-Ticket-prereqs1" border="0" />
+
+Name it something convenient like VM-osticket
+
+For the operating system select Windows 10.
+For the resources, select 2 CPUs. 1 CPU will be too slow.
+
 <h3>2. Install and enable IIS</h3>
+
+
 <h3>3. Download and install PHP Manager for IIS </h3>
 <h3>4. Download and install the Rewrite Module </h3>
 <h3>5. Create the directory C:\PHP</h3>
