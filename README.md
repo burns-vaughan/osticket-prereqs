@@ -156,5 +156,24 @@ php_opcache.dll<br><br>
 
 After that refresh the server
 
+
+
 <h3>14. Configure roles and SLAs</h3>
+Go into the following folder and edit the following file:
+C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+
+change is so to remove the word sample from the filename. It should be:
+C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+Write click on the file and select properties. On the new window that opens up open up click on the security tab at the top. Then click on Advanced. Next select the option that says remove all inheritance. And select remove all on the pop-up. Which is the bottom option. After that click on add. Select create principle. In the search box type everyone and click 'check names'. Give them full access.
+Then click ok and apply.
+
+Install the HeidiSQL file from the installation folder you downloaded. Select all the default options and install it. After that create a new database in HeidiSQL. To that click on add at the bottom right. Leave everything the same but put in your username and password.
+
+Shown in the screenshot below <br><br>
+<img src="https://i.ibb.co/k8vmXqj/4.jpg" alt="4" border="0"><br>
+It's the same username and password you noted down when you installed MySQL.
+
+After that you also need to create a database within the new database called osTicker.
+
 
