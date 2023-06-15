@@ -72,7 +72,7 @@ You then need to select more choices > use another account, shown below.
 
 6. Input your username and password to connect to the VM
 
-<h3>3. Download and install PHP Manager for IIS </h3>
+<h3>3. Install PHP Manager for IIS </h3>
 
 There are a bunch of prerequesite files that need to be downloaded to install osTicket. In my experience it's far easier to download everything at once. Google Drive scans the files for viruses which takes a long time one by one. Also, when using a VM for any length of time I install Google Chrome, as I'm more used to using it. Rather than, Microsoft Edge.
 
@@ -90,11 +90,9 @@ You enable them by clicking on the check box. For the last option you select all
 
 After that go to the folder where you unzipped all of the download files and double click on: 
 
-It will open the installer for it, shown in the screenshot below. Select next, and ok using all the default options and it will install it.
+It will open the installer for it. Select next, and ok using all the default options and it will install it.
 
-<img src="https://i.ibb.co/tpDLB4Y/2.jpg" alt="2" border="0">
-
-<h3>4. Download and install the Rewrite Module </h3>
+<h3>4. Install the Rewrite Module </h3>
 Go to your folder with all of the files you downloaded.
 Double click on rewrite_amd64_en-US and hit accept, and next to install it. Use all the default options.
 
