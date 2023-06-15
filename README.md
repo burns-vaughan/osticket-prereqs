@@ -165,7 +165,9 @@ C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
 change is so to remove the word sample from the filename. It should be:
 C:\inetpub\wwwroot\osTicket\include\ost-config.php
 
-Write click on the file and select properties. On the new window that opens up open up click on the security tab at the top. Then click on Advanced. Next select the option that says remove all inheritance. And select remove all on the pop-up. Which is the bottom option. After that click on add. Select create principle. In the search box type everyone and click 'check names'. Give them full access.
+Write click on the file and select properties. On the new window that opens up open up click on the security tab at the top. Then click on Advanced. Next select the option that says remove all inheritance. And select remove all on the pop-up. Which is the bottom option. 
+<br>
+After that click on add. Select create principle. In the search box type everyone and click 'check names'. Give them full access.
 Then click ok and apply.
 
 Install the HeidiSQL file from the installation folder you downloaded. Select all the default options and install it. After that create a new database in HeidiSQL. To that click on add at the bottom right. Leave everything the same but put in your username and password.
@@ -174,6 +176,25 @@ Shown in the screenshot below <br><br>
 <img src="https://i.ibb.co/k8vmXqj/4.jpg" alt="4" border="0"><br>
 It's the same username and password you noted down when you installed MySQL.
 
-After that you also need to create a database within the new database called osTicker.
+After that you also need to create a database within the new database called osticket.
+
+To do that right click on the database name on the left hand side. It should be 'unnamed'. Then select New > Database
+Name is osticket and leave everything else the same. Then select ok and accept.
+
+Finally, go to the website for your osTicket helpdesk, which is:
+
+http://localhost/osTicket
+
+And click on install at the bottom. Fill out all the options. At the bottom it asks for the database details.
+It should be following which we created earlier:
+database name: osticket
+database username: root
+database password: what you set it to in the previous step
+
+Then click on install, and you will get the following screen: <br>
+
+<img src="https://i.ibb.co/7Ycyfp0/5.jpg" alt="5" border="0"><br>
+
+Congratulations, now on to the post installation set up.
 
 
