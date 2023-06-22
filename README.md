@@ -141,7 +141,7 @@ Nothing will happen to let you know it's finished. Click back, or on the virtual
 <h3>12. Install osTicket v1.15.8 and reload IIS</h3>
 Go to the folder where you have all the files downloaded and extract osTicket v1.15.8.
 When it has finished extracting copy the folder it unzipped called “upload” to this folder C:\inetpub\wwwroot
-After that, rename the folder called 'upload' to 'osTicket'.
+After that, rename the folder called 'upload' to 'osTicket'.<br><br>
 Go into IIS, and restart the server, then open osTicket by selecting 'sites' on the lefthand side, and then osTicket from the dropdown menu. After that, 'Browse *:80 on the right hand side, shown in the screenshot below: <br><br>
 
 <kbd><img src="https://i.ibb.co/6ZdwWJL/4.jpg" alt="4" border="0"></kbd><br><br>
@@ -156,8 +156,6 @@ php_opcache.dll<br><br>
 
 After that refresh the server
 
-
-
 <h3>14. Configure roles and SLAs</h3>
 Go into the following folder and edit the following file:
 C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
@@ -166,7 +164,7 @@ change is so to remove the word sample from the filename. It should be:
 C:\inetpub\wwwroot\osTicket\include\ost-config.php
 
 Write click on the file and select properties. On the new window that opens up open up click on the security tab at the top. Then click on Advanced. Next select the option that says remove all inheritance. And select remove all on the pop-up. Which is the bottom option. 
-<br>
+<br><br>
 After that click on add. Select create principle. In the search box type everyone and click 'check names'. Give them full access.
 Then click ok and apply.
 
