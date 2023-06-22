@@ -36,17 +36,17 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h3>1. Create a virtual machine in Azure</h3>
 
-The first step is to create a virtual machine in Azure. To do that log in to your Azure account and select create a virtual machine. There are multiple ways to get there. Below, is a screenshot showing how to do it:
+The first step is to create a virtual machine in Azure. To do that log in to your Azure account and select create a virtual machine. There are multiple ways to get there. Below, is a screenshot showing how to do it:<br><br>
 
-<img src="https://i.ibb.co/jZL6b6M/os-Ticket-prereqs1.jpg" alt="os-Ticket-prereqs1" border="0" />
+<kbd><img src="https://i.ibb.co/jZL6b6M/os-Ticket-prereqs1.jpg" alt="os-Ticket-prereqs1" border="0" /></kbd><br><br>
 
 Name it something convenient like VM-1. And create a new resource group. Name it something like osTicket.
 
 For the operating system select Windows 10.
 For the resources, select 2 CPUs. 1 CPU will be too slow.
-Here's a screenshot showing what to select for the OS, and the CPU.
+Here's a screenshot showing what to select for the OS, and the CPU.<br><br>
 
-<img src="https://i.ibb.co/9yQPFRM/osticket-prereqs3.jpg" alt="osticket-prereqs3" border="0">
+<kbd><img src="https://i.ibb.co/9yQPFRM/osticket-prereqs3.jpg" alt="osticket-prereqs3" border="0"></kbd><br><br>
 
 Make note of the username and password on a Notepad or similar. Because this is for testing a simple username and password is sufficient.
 It will take a minutes or so to create the new VM.
@@ -58,17 +58,17 @@ If it's your first time doing it, open up Windows Remote Desktop from the Window
 1. Then click on your virtual machine in Azure to show the settings.<br>
 2. Copy the public IP address.<br>
 
-Shown in the screenshot below:
+Shown in the screenshot below:<br><br>
 
-<img src="https://i.ibb.co/zrnXxg4/osticket-prereqs4.jpg" alt="osticket-prereqs4" border="0">
+<kbd><img src="https://i.ibb.co/zrnXxg4/osticket-prereqs4.jpg" alt="osticket-prereqs4" border="0"></kbd><br><br>
 
-4. Paste that into Windows Remote Desktop, shown in the screenshots below.<br>
+4. Paste that into Windows Remote Desktop, shown in the screenshots below.<br><br>
 
-<img src="https://i.ibb.co/y0KgK93/osticket-prereqs5.jpg" alt="osticket-prereqs5" border="0">
+<kbd><img src="https://i.ibb.co/y0KgK93/osticket-prereqs5.jpg" alt="osticket-prereqs5" border="0"></kbd><br><br>
 
-You then need to select more choices > use another account, shown below.
+You then need to select more choices > use another account, shown below.<br><br>
 
-<img src="https://i.ibb.co/9NkCNKT/osticket-prereqs6.jpg" alt="osticket-prereqs6" border="0">
+<kbd><img src="https://i.ibb.co/9NkCNKT/osticket-prereqs6.jpg" alt="osticket-prereqs6" border="0"></kbd><br><br>
 
 6. Input your username and password to connect to the VM
 
@@ -82,9 +82,9 @@ Once it has finished downloading unzip it by right clicking on it, and selecting
 
 Next open go to the start menu and type 'turn windows features off'. Select the option at the top that says 'turn Windows features on and off.
 
-A new windows will open with a bunch of settings. Below, is a screen shot showing which ones need to be enabled.
+A new windows will open with a bunch of settings. Below, is a screen shot showing which ones need to be enabled.<br><br>
 
-<img src="https://i.ibb.co/5jxBR7Z/1.jpg" alt="1" border="0">
+<kbd><img src="https://i.ibb.co/5jxBR7Z/1.jpg" alt="1" border="0"></kbd><br><br>
 
 You enable them by clicking on the check box. For the last option you select all of the options. The main thing is to ensure yours looks exactly the same as the screenshot above. Select OK, and will take 20 seconds or so to make some changes.
 
@@ -118,9 +118,9 @@ Select all the default options, and hit next, and accept to install it.
 Go to the folder with all the downloads and double click on:
 mysql-5.5.62-win32
 
-Accept all of the default settings and click, ok, next. Once it finished installing it will prompt you run a wizard to set up the MySQL server. You want to change the default option when this open after installing MySQL. Change it to standard configuration as shown in the screen shot below: <br>
+Accept all of the default settings and click, ok, next. Once it finished installing it will prompt you run a wizard to set up the MySQL server. You want to change the default option when this open after installing MySQL. Change it to standard configuration as shown in the screen shot below: <br><br>
 
-<img src="https://i.ibb.co/vLtG1nq/3.jpg" alt="3" border="0">
+<kbd><img src="https://i.ibb.co/vLtG1nq/3.jpg" alt="3" border="0"></kbd><br><br>
 
 Then set a password for your SQL server. This is used because osTicket creates a database to store all of the tickets.
 
@@ -131,7 +131,9 @@ Go to the start menu and type in IIS. Then select Internet Informations Services
 
 <h3>10. Register PHP from within IIS and reload IIS</h3>
 A new windows will open from the tiles select PHP Manager as shown in the screenshot below: <br><br>
-<img src="https://i.ibb.co/sv2wQLq/3.jpg" alt="3" border="0"><br><br>
+
+<kbd><img src="https://i.ibb.co/sv2wQLq/3.jpg" alt="3" border="0"><br><br></kbd><br><br>
+
 Click on 'Register new PHP version'. It will ask you where the PHP file is located. It's in the C:\PHP folder which we created earlier. Select that, and the file name it's asking for which will be shown there.
 
 Nothing will happen to let you know it's finished. Click back, or on the virtual machine on the right hand side to go back to the main screen with the list of options. From the right hand side click on 'restart' to restart the server.
@@ -141,7 +143,8 @@ Go to the folder where you have all the files downloaded and extract osTicket v1
 When it has finished extracting copy the folder it unzipped called “upload” to this folder C:\inetpub\wwwroot
 After that, rename the folder called 'upload' to 'osTicket'.
 Go into IIS, and restart the server, then open osTicket by selecting 'sites' on the lefthand side, and then osTicket from the dropdown menu. After that, 'Browse *:80 on the right hand side, shown in the screenshot below: <br><br>
-<img src="https://i.ibb.co/6ZdwWJL/4.jpg" alt="4" border="0">
+
+<kbd><img src="https://i.ibb.co/6ZdwWJL/4.jpg" alt="4" border="0"></kbd><br><br>
 
 <h3>13. Enable PHP extensions in IIS </h3>
 Click on the PHP Manager option on the IIS home screen, and scroll down to the bottom.
@@ -170,7 +173,7 @@ Then click ok and apply.
 Install the HeidiSQL file from the installation folder you downloaded. Select all the default options and install it. After that create a new database in HeidiSQL. To that click on add at the bottom right. Leave everything the same but put in your username and password.
 
 Shown in the screenshot below <br><br>
-<img src="https://i.ibb.co/k8vmXqj/4.jpg" alt="4" border="0"><br>
+<kbd><img src="https://i.ibb.co/k8vmXqj/4.jpg" alt="4" border="0"></kbd><br><br>
 It's the same username and password you noted down when you installed MySQL.
 
 After that you also need to create a database within the new database called osticket.
@@ -188,9 +191,9 @@ database name: osticket
 database username: root
 database password: what you set it to in the previous step
 
-Then click on install, and you will get the following screen: <br>
+Then click on install, and you will get the following screen:<br><br>
 
-<img src="https://i.ibb.co/7Ycyfp0/5.jpg" alt="5" border="0"><br>
+<kbd><img src="https://i.ibb.co/7Ycyfp0/5.jpg" alt="5" border="0"><br></kbd><br><br>
 
 Congratulations, now on to the post installation set up.
 
